@@ -61,4 +61,4 @@ console.log(score([6, 4, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]))
 
 const bestScore = (gameScores) => Math.max(gameScores);
 
-modules.export(score, bestScore)
+module.exports = {score, bestScore}
