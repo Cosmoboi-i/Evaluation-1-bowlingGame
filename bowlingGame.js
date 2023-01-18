@@ -59,4 +59,6 @@ const score = (rolls) => {
 console.log("sd")
 console.log(score([6, 4, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]));
 
-const best = (gameScores) => Math.max(gameScores);
+const bestScore = (gameScores) => Math.max(gameScores);
+
+modules.export(score, bestScore)
